@@ -47,7 +47,7 @@ const page = () => {
   return (
 
     <div>
- <div className="min-h-screen bg-gradient-to-b from-blue-900 to-black text-white">
+ <div className="min-h-screen text-custom-dark-blue text-white">
             <div className="container mx-auto px-4 py-16">
                 <motion.h1
                     className="text-4xl md:text-5xl font-bold text-center mb-16"
