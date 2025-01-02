@@ -150,7 +150,7 @@ const PostDetails
 
                             </div>
                             <div
-                                className="prose prose-lg max-w-none"
+                                className="prose prose-lg max-w-none text-custom-dark-blue"
                                 dangerouslySetInnerHTML={{ __html: post.content }}
                             />
                         </div>
