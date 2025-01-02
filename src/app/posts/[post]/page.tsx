@@ -111,7 +111,7 @@ const PostDetails
                     <div className="text-center p-8 bg-white shadow-xl rounded-lg">
                         <h1 className="text-3xl font-bold text-gray-800 mb-4">Post Not Found</h1>
                         <p className="text-gray-600 mb-6">Sorry, the post you're looking for doesn't exist.</p>
-                        <Link href="/blog" className="bg-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition duration-300">
+                        <Link href="/posts" className="bg-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition duration-300">
                             Return to Blog
                         </Link>
                     </div>
@@ -164,7 +164,7 @@ const PostDetails
                         transition={{ delay: 0.5, duration: 0.5 }}
                         className="text-center mt-12"
                     >
-                        <Link href="/post" className="inline-block bg-indigo-600 text-white px-8 py-3 rounded-full hover:bg-indigo-700 transition duration-300">
+                        <Link href="/posts" className="inline-block bg-indigo-600 text-white px-8 py-3 rounded-full hover:bg-indigo-700 transition duration-300">
                             Back to Blog
                         </Link>
                     </motion.div>
