@@ -1,9 +1,13 @@
-import Post from './posts/page'
+import HeroSection from "./components/HeroSection";
+import Posts from './posts/page'
+import About from "./components/About";
 
 export default function Home() {
   return (
    <>
-   <Post/>
+     <HeroSection />
+      <Posts />
+      <About />
    </>
   );
 }
