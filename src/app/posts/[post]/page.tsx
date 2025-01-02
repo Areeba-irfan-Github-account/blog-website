@@ -107,7 +107,7 @@ const PostDetails
 
         if (!post) {
             return (
-                <div className="flex items-center justify-center min-h-screen text-custom-dark-blue">
+                <div className="flex items-center justify-center min-h-screen bg-custom-dark-blue">
                     <div className="text-center p-8 bg-white shadow-xl rounded-lg">
                         <h1 className="text-3xl font-bold text-gray-800 mb-4">Post Not Found</h1>
                         <p className="text-gray-600 mb-6">Sorry, the post you're looking for doesn't exist.</p>
