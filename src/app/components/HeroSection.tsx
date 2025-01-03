@@ -17,9 +17,9 @@ const HeroSection = () => {
         </div>
 
         <div className="bg-custom-dark-blue flex flex-col lg:hidden w-full bg-opacity-100 justify-center items-center mt-14 mb-12">
-        <h1 className=" text-4xl sm:text-8xl font-bold mb-4">Mindful</h1>
+        <h1 className=" text-45xl sm:text-8xl font-bold mb-4">Mindful</h1>
           <p className=" text-3xl sm:text-5xl font-serif mb-8">Tech use leads</p>
-          <h1 className="text-4xl sm:text-8xl font-bold mb-4">To a</h1>
+          <h1 className="text-5xl sm:text-8xl font-bold mb-4">To a</h1>
           <p className=" text-3xl sm:text-5xl font-serif mb-8">Fulfilling life.</p>
           <a href="/posts" className="bg-white shadow-lg hover:shadow-blue-500/60  text-custom-dark-blue px-6 py-3 rounded-full font-semibold hover:bg-opacity-80 transition-opacity ">
             Start Reading
