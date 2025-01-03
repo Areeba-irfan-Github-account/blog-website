@@ -8,7 +8,7 @@ const Navbar = () => {
         <a href="/posts" className="text-white hover:opacity-80 transition-opacity">Posts</a>
         <a href="/about" className="text-white hover:opacity-80 transition-opacity">About</a>
       </div>
-      <a href="/Contact" className="bg-white text-black px-2 py-1.5 rounded hover:bg-opacity-80 transition-opacity shadow-lg hover:shadow-blue-500/60">
+      <a href="/Contact" className="bg-white text-black px-2 py-1.5 rounded hover:bg-opacity-80 hidden lg:block transition-opacity shadow-lg hover:shadow-blue-500/60">
         Contact →
       </a>
     </nav>
